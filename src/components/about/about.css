@@ -1,0 +1,69 @@
+.se_about{
+    width: 100%;
+    height: 100%;
+    /* max-width: 1200px;
+    padding: 4rem 1rem 2rem;
+    min-height: 50vh; */
+}
+
+.se_about .row {
+    width: 100%;
+    height: 100%;
+    margin: 1rem auto;
+}
+
+
+h1.title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--main-text-color);
+    display: inline-block;
+    margin-bottom: 1.5rem;
+}
+.se_about .row .img-part{
+    max-width: 500px;
+    width: 100%;
+    height:100%;
+    margin: 0 1rem;
+}
+.se_about .row .img-part img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.box-about{
+    max-width: 500px;
+    width: 100%;
+    height: 100%;
+    margin: 0 1rem;
+}
+
+.box-about p{
+    font-size: .9rem;
+    font-weight: 400;
+    color: var(--main-text-color-dark);   
+    margin-top: 1rem;
+}
+.box-about button{
+    margin-top: 2rem;
+}
+/* ************  cards ********* */
+.whatdo-part{
+    padding: 2rem 0;
+}
+.whatdo-part .cards .card{
+    max-width: 340px;
+}
+.whatdo-part .cards .card img{
+    width: 50px;
+    height: 50px;
+}
+
+
+@media (max-width:600px) {
+    .se_about .row {
+        flex-wrap: wrap;
+    }  
+}

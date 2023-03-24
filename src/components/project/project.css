@@ -1,0 +1,104 @@
+.se_project{
+    width: 100%;
+    height: 100%;
+    margin: 8rem 0 3rem;
+}
+
+.se_project .container{
+    margin-top: 4rem;
+}
+.p_card{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 350px;
+    max-height: 250px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+.p_card .p_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+.p_card .p_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 4px;
+}
+.p_card .p_img{
+    width: 100%;
+    height: 100%;
+}
+
+.p_card figcaption{
+    position: absolute;
+    top: 0;bottom: 0;
+    left: 0;right: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(44, 15, 57, 0.815);
+    border-radius: 4px;
+    border: 1px solid var(--secondary-text-color);
+    opacity: 0;
+    transform: translateY(250px);
+    transition: transform 1s ;
+}
+.p_card figcaption h3{
+    color: var(--secondary-text-color);
+    margin-top: 2rem;
+}
+.p_card figcaption .about_project{
+    max-width: 300px;
+    margin: auto;
+    font-size: .7rem;
+}
+
+.p_card figcaption .icon_project{
+    width: fit-content;
+    margin: 4rem auto 0;
+}
+
+.p_card figcaption a{
+text-align: center;
+margin: 1rem;
+}
+.p_card figcaption a i{
+font-size: 2rem;
+color: var(--secondary-text-color);
+}
+.p_card figcaption a i:hover{
+color: var(--main-text-color);
+}
+
+.p_card:hover figcaption{
+    opacity: 1;
+    transform: translateY(0px);
+}
+/* animation */
+/* .. */
+.p_card figcaption h3{
+    transform: translatex(350px);
+    transition: transform 2s ;
+}
+.p_card:hover figcaption h3{
+    transform: translatex(0px);
+}
+/* .. */
+.p_card figcaption .about_project{
+    transform: translatex(-350px);
+    transition: transform 2s ;
+}
+.p_card:hover figcaption .about_project{
+    transform: translatex(0px);
+}
+
+.p_card figcaption .icon_project{
+    transform: translateY(-250px);
+    transition: transform 2s ;
+}
+.p_card:hover figcaption .icon_project{
+    transform: translateY(0px);
+}

@@ -1,0 +1,112 @@
+footer{
+    width: 100%;
+    height: fit-content;
+    position: relative;
+}
+
+footer .social_icon{
+    position:fixed ;
+    left: 40px;
+    bottom: 0; 
+    width: 100px;
+    padding-right: 2rem;
+    height: 230px;
+}
+.social_icon .all_icon{
+}
+.social_icon a{
+    width: fit-content;
+    height: fit-content;
+    display: block;
+    margin: 1rem;
+}
+.social_icon a i{
+  color: var( --main-text-color-dark);
+  font-size: 1.3rem;
+}
+.social_icon a:hover i{
+  color: var( --secondary-text-color);
+
+}
+
+.social_icon span{
+    position: fixed;
+    bottom: 0;
+    background-color: var( --main-text-color-dark);
+    height: 80px;
+    width: 1px;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+}
+
+footer .gmail_link{
+    position:fixed ;
+    right: 40px;
+    bottom: 0; 
+    width: 50px;
+    padding-right: 2rem;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer .gmail_link a{
+font-size: .9rem;
+font-weight: 400;
+color: var(--main-text-color-dark);
+margin-top: 1rem;
+display: inline-block;
+text-decoration: none;
+writing-mode: vertical-rl;}
+
+footer .gmail_link a:hover{
+    color: var( --secondary-text-color);
+  }
+
+  footer .gmail_link span{
+    position: fixed;
+    bottom: 0;
+    background-color: var( --main-text-color-dark);
+    height: 80px;
+    width: 1px;
+    margin-left: .6rem;
+    margin-top: 2rem;
+  }
+
+  @media (max-width:600px){
+    .social_icon span,
+    .gmail_link span{
+      display: none;
+    }
+    .social_icon{
+      position: relative!important;
+      left: 0!important;right: 0;
+      width: fit-content!important;
+      max-width: 400px!important;
+      height: 40px!important;
+      margin: 0 auto;
+      padding: 0!important;
+    }
+    .social_icon a{
+      display: inline-block;
+      margin: .5rem;
+    }
+    .social_icon a i{
+      font-size: 1rem;
+    }
+
+    footer .gmail_link{
+      position: unset!important;
+      width: 100%;
+      max-width: 200px;
+      margin: .8rem auto 2rem;
+      height: 30px;
+      text-align: center;
+      padding: 0;
+    }
+    footer .gmail_link a{
+      writing-mode:horizontal-tb!important;
+      margin: 0;
+    }
+  }

@@ -1,0 +1,70 @@
+.se_experiens{
+    width: 100%;
+    height: 100%;
+    max-width: 100vw;
+    margin: 8rem 0 4rem;
+    padding: 1rem;
+}
+
+.se_experiens .row .education_part,
+.se_experiens .row .experiens_part{
+    max-width: 600px;
+    width: 100%;
+}
+
+/* .se_experiens .row .card p{
+    color: var(--main-text-color);
+} */
+.se_experiens .row .card p{
+    text-transform: capitalize;
+}
+
+
+.se_experiens .row .education_part .card,
+.se_experiens .row .experiens_part .card{
+  margin: 1.5rem  0px !important;
+  max-width: 500px;  
+}
+
+.se_experiens .row .education_part .card h3,
+.se_experiens .row .experiens_part .card h3{
+    display: inline-block;
+    text-transform: capitalize;
+    margin: 0px;
+}
+.se_experiens .row .education_part .card h3.uni,
+.se_experiens .row .experiens_part .card h3.uni{
+color: var(--secondary-text-color);
+margin-left: 10px;
+}
+.se_experiens .row .education_part .card p.date,
+.se_experiens .row .experiens_part .card p.date{
+    color: var(--secondary-text-color);
+}
+
+.se_experiens .row .experiens_part .card .Responsibility{
+font-size: .8rem;
+font-weight: 600;
+margin: 1rem 0 .1rem;
+color: var( --main-text-color);
+display: block;
+}
+
+.se_experiens .row .experiens_part .card ul{
+    list-style-type: none;
+}
+.se_experiens .row .experiens_part .card ul li{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+.se_experiens .row .experiens_part .card ul li p{
+    display: inline-block;
+    margin: 0;
+}
+.se_experiens .row .experiens_part .card ul li i{
+    display: inline-block;
+    color:var(--main-text-color-dark);
+    font-size: 8px;
+    margin-right: 10px;
+}

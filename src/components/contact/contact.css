@@ -1,0 +1,40 @@
+.se_contact{
+    width: 100%;
+    height: 100%;
+    max-width: 100vw;
+    margin: 8rem 0 4rem;
+    padding: 1rem;
+}
+
+.se_contact form{
+    width: 100%;
+    max-width: 800px;
+    margin: 4rem auto;
+}
+.se_contact form textarea,
+.se_contact form input{
+background-color: transparent;
+border: 2px solid rgba(81, 14, 96, 0.696);
+outline: none;
+width: 100%;
+margin: .5rem 0;
+border-radius: 4px;
+padding: 10px;
+color: var(--main-text-color);
+}
+.se_contact form input{
+    height: 60px;
+}
+
+.se_contact form textarea{
+    height: 150px;
+}
+.se_contact form textarea:hover,
+.se_contact form input:hover{
+border: 1px solid var(--secondary-text-color);
+}
+
+.se_contact form button{
+width: 100%!important;
+margin: 2rem 0!important;
+}
