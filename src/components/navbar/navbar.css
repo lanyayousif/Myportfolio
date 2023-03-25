@@ -11,6 +11,7 @@ nav.scrolled{
     position: fixed;
     top: 0;bottom: 0;
     left: 0;right: 0;
+    height: 70px;
 }
 .nav-parts{
     display: flex;
@@ -96,7 +97,7 @@ nav.scrolled .nav_elements ul li a{
 
     .nav_elements.active{
         width: 100vw;
-        height: 310px;
+        height: 340px;
         transition: height .4s ease-in;
         opacity: 1;
 
@@ -115,5 +116,8 @@ nav.scrolled .nav_elements ul li a{
     }
     .nav_elements ul li a{
         display: inline-block;
+    }
+    .nav_elements button.main-button{
+        margin: 22px auto 0;
     }
 }

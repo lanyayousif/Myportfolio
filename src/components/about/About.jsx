@@ -13,7 +13,7 @@ function About() {
 
 
   return (
-    <section className='se_about'>
+    <section className='se_about' id='about'>
     <Container>
         <div className="row">
             <div className="img-part">
