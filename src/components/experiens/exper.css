@@ -8,7 +8,7 @@
 
 .se_experiens .row .education_part,
 .se_experiens .row .experiens_part{
-    max-width: 600px;
+    max-width: 500px;
     width: 100%;
 }
 
@@ -67,4 +67,21 @@ display: block;
     color:var(--main-text-color-dark);
     font-size: 8px;
     margin-right: 10px;
+}
+
+
+
+@media (max-width: 992px) {
+    .se_experiens .row .education_part .card,
+     .se_experiens .row .experiens_part .card {
+        margin: 1.5rem auto !important;
+    }
+    h1.title {
+        max-width: 500px;
+        margin:0px auto 1.5rem;
+    }
+ 
+.se_experiens .row .experiens_part{
+    margin-top: 2rem;
+}
 }

@@ -19,7 +19,7 @@ export default function Footer() {
            <span></span>
         </div>
         
-        <p className='text_center' style={{margin:"1rem 0px"}}>@2023 devloped by meself</p>
+        <p className='text_center' style={{margin:"1rem 0px"}}>@2023 devloped by myself</p>
     </footer>
   )
 }

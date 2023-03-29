@@ -54,7 +54,7 @@ function Experiens() {
                         <span className='Responsibility'>Responsibility :</span>
                         <ul>
                           <li><i class="fa-solid fa-circle"></i><p>{data.Responsibility[0]}</p></li>
-                          <li><i class="fa-solid fa-circle"></i><p>{data.Responsibility[0]}</p></li>
+                          <li><i class="fa-solid fa-circle"></i><p>{data.Responsibility[1]}</p></li>
                         </ul>
                    </Card>
                   )

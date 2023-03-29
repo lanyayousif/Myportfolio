@@ -23,7 +23,7 @@ function App() {
   if(loader === true){
     return (
       <div className="loder_part">
-        <span class="loader">Loading</span>
+        <span class="loader">welcome to my portfolio</span>
       </div>
     )
   }

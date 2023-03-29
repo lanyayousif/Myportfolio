@@ -106,3 +106,9 @@ margin: 1.5rem auto;
 .Circle_bar_part svg path{
     stroke-width:3px
 }
+
+@media (max-width: 992px) {
+.se_skill .row .pro_skill_part {
+   margin-top: 4rem;
+}
+}
