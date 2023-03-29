@@ -98,7 +98,7 @@ p {
   margin-top: 30vh;
 }
 .loder_part .loader{
-  font-size: 5rem;
+  font-size: 2rem;
   font-weight: 600;
   display: block;
   text-align: center;
@@ -106,6 +106,7 @@ p {
   color: #FFF;
   box-sizing: border-box;
   animation: spotlight 2s linear infinite alternate;
+  text-transform: capitalize;
 }
 @keyframes spotlight {
   0% , 20% {
