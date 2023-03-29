@@ -9,10 +9,10 @@ function Contact() {
     }
 
   return (
-    <section className='se_contact'>
+    <section name="contact" className='se_contact' id='contact'>
         <Container>
         <h1 className="title block text_center ">contact me</h1>
-            <form onSubmit={handlForm}>
+            <form onSubmit={handlForm} action="https://mail.google.com/mail/u/0/#settings/filters" method="post">
                 <input type="text" name='name'  placeholder='Your name'/>
                 <input type="email" name='email'  placeholder='Email address' />
                 <textarea name="message" id="message" placeholder='Message...' ></textarea>

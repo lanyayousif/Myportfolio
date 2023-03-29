@@ -1,4 +1,6 @@
 import React from 'react'
+
+
 import './about.css'
 import about_img from '../../assets/image/about.png'
 import Button from '../button/Button'
@@ -7,13 +9,14 @@ import Card from '../card/Card'
 import user_interface from '../../assets/image/user-interface.png'
 import web from '../../assets/image/web.png'
 import data_management from '../../assets/image/data-management.png'
+import cv from '../../assets/Doc2.pdf'
 
 function About() {
 
 
 
   return (
-    <section className='se_about' id='about'>
+    <section name="about" className='se_about' id='about'>
     <Container>
         <div className="row">
             <div className="img-part">
@@ -26,7 +29,7 @@ function About() {
                 <p>specialize in the creation and maintenance of websites and web applications. 
                 i am full stack Web developer work on both the front-end and back-end of websites</p>
 
-                <Button>download cv</Button>
+                <Button href={cv} download="cv,pdf" target="_blank" rel="noopener noreferrer">download cv</Button>
             </div>
         </div>
 

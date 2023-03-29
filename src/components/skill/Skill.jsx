@@ -49,7 +49,7 @@ function Skill() {
 
 
   return (
-    <section className='se_skill'>
+    <section name="skills" className='se_skill' id='skills'>
         <Container>
         <div className="row">
             <div className="tech_skill_part">

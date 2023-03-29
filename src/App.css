@@ -88,6 +88,35 @@ p {
   align-items: center;
   flex-wrap: wrap;
 }
+/* ************************* loder *************************** */
+.loder_part{
+  width: 100%;
+  height: 100%;
+  max-width: 100vw;
+  max-height: 100vh;
+  background-color: rgb(44,15,57);
+  margin-top: 30vh;
+}
+.loder_part .loader{
+  font-size: 5rem;
+  font-weight: 600;
+  display: block;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #FFF;
+  box-sizing: border-box;
+  animation: spotlight 2s linear infinite alternate;
+}
+@keyframes spotlight {
+  0% , 20% {
+    opacity: 1;
+    letter-spacing: 2px;
+   }
+ 80% , 100% {
+    opacity: 0;
+    letter-spacing: 32px;
+   }
+}
 
 @media (max-width:1200px){
   .row{

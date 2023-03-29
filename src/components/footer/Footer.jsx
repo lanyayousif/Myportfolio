@@ -7,9 +7,9 @@ export default function Footer() {
 
         <div className="social_icon">
             <div className="all_icon">
-                <a className='git_icon' href="#"><i class="fa-brands fa-github"></i></a>
-                <a className='twitter_icon' href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a className='linkedin_icon' href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a className='git_icon' href="https://github.com/lanyayousif" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a className='twitter_icon' href="#"  target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a className='linkedin_icon' href="https://www.linkedin.com/in/lanya-yousif-098b10196/"  target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
             <span></span>
         </div>
